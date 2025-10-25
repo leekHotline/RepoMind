@@ -1,4 +1,3 @@
 # how to run this project
-# 1
-
-git clone xxx.git
+# clone project and install the requirement
+git clone https://github.com/leekHotline/RepoMind.git
