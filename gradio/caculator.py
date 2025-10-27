@@ -1,6 +1,7 @@
 import gradio as gr
 
 # 要把全局代理关闭
+# i keep it true i keep it hard
 
 
 def calculator(num1, operation, num2):
