@@ -1,0 +1,11 @@
+import asyncio
+# open不是异步函数
+async def test():
+    with open('file.txt','rb') as f:
+        chunk = f.read()
+    
+    print(chunk)
+# b代表以二进制方式读取了字符串 读取了文件
+if __name__  == "__main__":
+    asyncio.run((test()))
+

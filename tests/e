@@ -1,0 +1,9 @@
+console.log("hello world")
+
+function call(name){
+    return `${name}, hello!`
+}
+
+
+
+console.log(call('alex'))
