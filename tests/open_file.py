@@ -24,6 +24,7 @@ class User:
         self.email = email
 
     def greet(self):
-        return f"Hello:{self.name}"
+        return f"Hello,dear {self.name}"
     
-user = User()
+user = User("alexander","m@outlook.com")
+logger.info(user.greet())
